@@ -1,0 +1,262 @@
+.wrapper {
+    background: #F5EBE2;
+    min-height: 100vh;
+}
+
+.wrapper, 
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid #E8AE79;
+}
+
+.menu {
+    display: flex;
+    gap: 24px;
+}
+
+.menu__link {
+    color: #000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+}
+
+.hero__block {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    height: 650px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.hero__item {
+    position: relative;
+    height: 100%;
+}
+
+.rectangle {
+    height: 450px;
+    width: 450px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    filter: blur(120px);
+    background: #E8AE79;
+}
+
+.hero__title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    line-height: 200%;
+    font-size: 20px;
+}
+
+.hero__img__1 {
+    height: 600px;
+    width: 490px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    object-fit: cover;
+}
+
+.hero__img__2 {
+    height: 380px;
+    width: 280px;
+    object-fit: cover;
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.section__description {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.description__block {
+    width: 700px;
+}
+
+.section__name {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.decription__btn {
+    background: #000;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.doll__grid {
+    margin-top: 50px;
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    gap: 20px;
+}
+
+.doll__card {
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #000;
+}
+
+.doll__img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.doll__info {
+    display: flex;  
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.packaging__block {
+    background: #e0c6af;
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pack__item {
+    position: relative;
+}
+
+.pack__item__1 {
+    width: 590px;
+}
+
+.pack__name {
+    font-size: 24px;
+    background: #fff;
+    padding: 10px 10px 10px 40px;
+    width: 480px;
+    text-align: right;
+    margin-bottom: 40px;
+}
+
+.pack__description {
+    line-height: 180%;
+}
+
+.pack__img__1 {
+    height: 300px;
+    width: 224px;
+    transform: rotate(-14deg);
+    object-fit: cover;
+    position: absolute;
+    bottom: -30px;
+    left: -80px;
+}
+
+.pack__img__2 {
+    height: 384px;
+    width: 336px;
+    object-fit: cover;
+}
+
+.special {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e0c6af;
+}
+
+.propositon {
+    line-height: 150%;
+    font-size: 20px;
+    width: 640px;
+    text-align: center;
+    width: 640px;
+    margin: 0 auto;
+}
+
+.propositon span {
+    font-weight: 600;
+}
+
+.special__proposition {
+    width: 1200px;
+    position: relative;
+}
+
+.special__img_1 {
+    position: absolute;
+    bottom: -120px;
+    left: -200px;
+    transform: rotate(-25deg);
+}
+
+.special__img_2 {
+    position: absolute;
+    left: 50%;
+    top: 250px;
+    transform: translate(-50%, -50%);
+}
+
+.special__img_3 {
+    position: absolute;
+    bottom: 180px;
+    right: -150px;
+}
+
+.footer {
+    margin-top: 200px;
+    background: #FAF7E6;
+}
+
+.footer__container {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.footer__menu .menu__list {
+    margin-bottom: 20px;
+}
+
+.list__active {
+    font-size: 24px;
+    margin-bottom: 24px;
+    font-weight: 600;
+}
